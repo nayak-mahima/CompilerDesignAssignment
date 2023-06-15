@@ -1,0 +1,7 @@
+
+# compiler
+bison -y -d compiler.y
+flex compiler.l
+gcc -c y.tab.c lex.yy.c
+gcc y.tab.o lex.yy.o compilerb.c -o compilerb.exe
+

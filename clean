@@ -1,0 +1,4 @@
+rm compilera.exe compilerb.exe compilerg.exe calc1.exe calc2.exe
+rm lex.yy.o y.tab.o
+rm lex.yy.c y.tab.c
+rm y.tab.h
